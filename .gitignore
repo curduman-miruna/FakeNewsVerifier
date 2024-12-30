@@ -1,7 +1,24 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Flask specific files
+instance/
+*.db
+*.sqlite3
+
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +27,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,6 +36,65 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs (Java HotSpot logs)
 hs_err_pid*
 replay_pid*
+
+# .env files containing sensitive environment variables
+.env
+.env.*
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Maven / Gradle specific files
+/.mvn/
+target/
+build/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot generated files
+*.db
+*.h2.db
+
+# Kubernetes files
+.k8s/
+*.yaml
+*.yml
+
+# Docker-related files
+docker-compose.yml
+Dockerfile
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# IntelliJ specific files
+/.idea/
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# NetBeans specific files
+nbproject/
+
+# Node.js or frontend dependencies (for Angular or React)
+node_modules/
+dist/
+tmp/
+build/
+
+# Binaries
+bin/
